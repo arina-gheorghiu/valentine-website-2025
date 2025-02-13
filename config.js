@@ -5,16 +5,16 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Vlad",
+    valentineName: "Vlăduț",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "vrei să petreci 14 februarie cu mine?💞",
+    pageTitle: "14 februarie împreună?💞",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['💖', '💝', '💗'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Îți place de mine?",                                    // First interaction
+            text: "Îți place de mine?🤭",                                    // First interaction
             yesBtn: "Da",                                             // Text for "Yes" button
             noBtn: "Nu",                                               // Text for "No" button
             secretAnswer: "Nu îmi place de tine ci TE IUBESC!❤️"           // Secret hover message
@@ -30,10 +30,10 @@ const CONFIG = {
         second: {
             text: "Cât de mult mă iubești?",                          // For the love meter
             startText: "Atât de mult!",                                   // Text before the percentage
-            nextBtn: "Următoarea❤️"                                         // Text for the next button
+            nextBtn: "Următoarea"                                         // Text for the next button
         },
         third: {
-            text: "Vrei să petrecem 14 februarie împreună?🌹", // The big question!
+            text: "Sărbătorim Ziua Îndrăgostiților împreună?🌹", // The big question!
             yesBtn: "Da!",                                             // Text for "Yes" button
             noBtn: "Nu"                                                 // Text for "No" button
         }
@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Vai de mine! Mă iubești într-atât de mult?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Mai sus de univers! 🚀💝",              // Shows when they go past 1000%
-        normal: "Și mai mult!🥰"                           // Shows when they go past 100%
+        extreme: "Vai de mine! Mă iubești într-atât de mult?!🥰",  // Shows when they go past 5000%
+        high: "Mai sus de univers!🚀",              // Shows when they go past 1000%
+        normal: "Și mai mult!🔥"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! Sunt cea mai norocoasă fată din lume!🎉💖",
-        message: "Acum poți să-ți primești cadoul...Pupici FĂRĂ LIMITĂ și cea mai strânsă îmbrățișare",
-        emojis: "🎁💖🤗💕"  // These will bounce around
+        title: "Sunt cea mai norocoasă din lume!🎉💖",
+        message: "Cadoul ajunge curând, iar până atunci - mă suni pentru a-ți da cât mai mulți pupici miau",
+        emojis: "😽🎁💖"  // These will bounce around
     },
 
     // Color scheme for the website
